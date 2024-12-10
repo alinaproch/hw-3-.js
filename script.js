@@ -63,6 +63,13 @@ const output = calculateAverage(input);
   console.log(output); // Вывод: 35
 
 //   6th task
+function countEvenNumbers(arr) {
+  return arr.filter(num => num % 2 === 0);
+}
+
+console.log(countEvenNumbers([1, 2, 3, 4, 5, 6])); // [2, 4, 6]
+
+
 
 
   
